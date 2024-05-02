@@ -1,8 +1,6 @@
-# React + Vite
+Yu-Gi-Oh! Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project uses React to pull monsters from an API and then randomizes the monsters for a game round.
+The player will click monsters until one has been clicked more than once. The best score will be stored and the game will reset with new random monsters.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
